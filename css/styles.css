@@ -1,0 +1,62 @@
+:root {
+  --primaryColor: #1073BA;
+  --secondaryColor: #00DA55;
+  --grey: #3b3b3b;
+  --ligthGrey: #E1E1E1;
+  --white: #FFFFFF;
+  --black: #1F1E1E;
+
+  --separation: 5rem;
+
+  --pimaryFont: 'Roboto', sans-serif;
+  --secondaryFont: 'Lato', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--pimaryFont);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  font-family: var(--secondaryFont);
+  margin: calc( var(--separation) / 2 ) 0;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Utilities */
+.text-center {
+  text-align: center;
+}
